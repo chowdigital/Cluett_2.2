@@ -21,9 +21,10 @@ p {
 
 li, a {
   font-family: titling-gothic-fb, sans-serif;
-  font-weight: 700;
+  font-weight: 200;
   font-style: normal;
-  letter-spacing: 0.1em; }
+  letter-spacing: 0.1em;
+  text-decoration: none; }
 
 a:link {
   color: #D6D6D6; }
@@ -38,9 +39,7 @@ a:active {
   color: #6A808E; }
 
 body {
-  height: 100%; }
-
-.site-content {
+  height: 100%;
   background-color: #D6D6D6; }
 
 .heroImage {
@@ -183,21 +182,33 @@ section {
       transform: rotate(-135deg); } }
 @media only screen and (min-width: 600px) {
   #masthead {
-    padding: 0em 2em;
+    padding: 1em 2em;
     background-color: #042C24;
     width: 100%;
     display: inline;
     display: flex; }
 
   .site-branding {
-    width: 50%;
+    width: 30%;
     float: left; }
 
   .main-navigation {
-    width: 50%;
+    width: 70%;
     align-self: center; }
     .main-navigation ul {
       display: flex;
-      justify-content: space-around; } }
+      justify-content: space-around; }
+
+  .site-title {
+    text-transform: uppercase;
+    text-decoration: none; } }
+.site-title a {
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 700;
+  font-style: normal; }
+  .site-title a img {
+    width: auto;
+    height: 2em;
+    margin-bottom: -0.5em; }
 
 /*# sourceMappingURL=cluett.css.map */

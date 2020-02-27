@@ -115,23 +115,35 @@
 @media only screen and (min-width: 600px)
 
 	#masthead
-		padding: 0em 2em
+		padding: 1em 2em
 		background-color: $green
 		width: 100%
 		display: inline
 		display: flex
 
 	.site-branding
-		width: 50%
+		width: 30%
 	
 		float: left
 
 	.main-navigation
-		width: 50%
+		width: 70%
 
 		align-self: center
 		ul
 			display: flex
 			justify-content: space-around
 
+	.site-title
+		text-transform: uppercase
+		text-decoration: none
+	
+
+
+.site-title a 	
+	@include txt-bold
+	img 
+		width: auto
+		height: 2em
+		margin-bottom: -0.5em
 
