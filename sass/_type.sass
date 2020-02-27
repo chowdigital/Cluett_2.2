@@ -38,10 +38,13 @@ h2, h3
 h2
 	font-size: 3em
 
+h3
+	font-size: 2em
+
 p
 	@include txt-light
 
-li, a 
+li, a, input
 	@include txt-light
 	letter-spacing: 0.1em
 	text-decoration: none
@@ -58,3 +61,6 @@ a:hover
 
 a:active 
 	color: $grey
+
+.light-text
+	color: $white

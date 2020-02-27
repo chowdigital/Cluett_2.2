@@ -14,12 +14,15 @@ h2, h3 {
 h2 {
   font-size: 3em; }
 
+h3 {
+  font-size: 2em; }
+
 p {
   font-family: titling-gothic-fb, sans-serif;
   font-weight: 200;
   font-style: normal; }
 
-li, a {
+li, a, input {
   font-family: titling-gothic-fb, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -37,6 +40,9 @@ a:hover {
 
 a:active {
   color: #6A808E; }
+
+.light-text {
+  color: #fff; }
 
 body {
   height: 100%;
@@ -81,6 +87,9 @@ section {
 
 .mainCat {
   background-color: #D6D6D6; }
+
+.entry-header, .entry-content {
+  padding: 2em; }
 
 @media only screen and (max-width: 600px) {
   #masthead {
@@ -224,5 +233,79 @@ section {
 
 .site-info-column, .site-info-column a {
   display: table; }
+
+h1 {
+  color: red; }
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+  color: #6A808E;
+  background-color: transparent;
+  border: 2px solid #D6D6D6;
+  border-radius: 0px;
+  padding: 0.5em;
+  margin-bottom: 0.5em; }
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+  border: 3px solid #D6D6D6;
+  color: #fff; }
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  background-color: transparent;
+  border: none;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  font-family: titling-gothic-fb, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 2em;
+  color: #fff;
+  text-align: right; }
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+  background-color: #154043;
+  border-radius: 0px; }
+
+.social-links {
+  padding: 2em;
+  text-align: center; }
+  .social-links a img {
+    width: 2em;
+    height: auto; }
 
 /*# sourceMappingURL=cluett.css.map */
