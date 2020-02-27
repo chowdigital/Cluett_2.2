@@ -25,21 +25,31 @@ jQuery(document).ready(function($) {
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
+	
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'base-theme' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'base-theme' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'base-theme' ), 'base-theme', '<a href="http://seancloudsdale.com">Sean Cloudsdale</a>' );
-				?>
+			<div class="site-info-column">
+				<h5>Title A</h5>
+				<a href="link">title A</a>
+				<a href="link">title A</a>
+				<a href="link">title A</a>
+			</div>
+			<div class="site-info-column">
+				<h5>Title B</h5>
+				<a href="link">title B</a>
+				<a href="link">title B</a>
+				<a href="link">title B</a>
+			</div>
+
+			<div class="site-info-column">
+				<h5>Title C</h5>
+				<a href="link">title C</a>
+				<a href="link">title C</a>
+				<a href="link">title C</a>
+			</div>
+
 		</div><!-- .site-info -->
 
-	<div class="no-smoothState">
+	<div class="contact-form">
 		<?php echo do_shortcode( '[contact-form-7 id="7" title="Contact Form 1"]' ); ?>
 		</div>
 	</footer><!-- #colophon -->

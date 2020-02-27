@@ -211,4 +211,18 @@ section {
     height: 2em;
     margin-bottom: -0.5em; }
 
+.site-footer {
+  background-color: #131920;
+  position: relative;
+  bottom: 0px;
+  padding: 2em 2em; }
+  .site-footer .site-branding {
+    width: 100%; }
+
+.site-info a {
+  font-size: 0.8em; }
+
+.site-info-column, .site-info-column a {
+  display: table; }
+
 /*# sourceMappingURL=cluett.css.map */
